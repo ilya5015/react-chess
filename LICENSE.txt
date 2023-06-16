@@ -1,0 +1,4 @@
+
+Online chess game. It is written in React.
+
+## License
