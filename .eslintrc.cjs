@@ -12,9 +12,9 @@ module.exports = {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "react-refresh/only-export-components": "warn",
     "editor.formatOnSave": true,
-    "javascript.format.enable": false,
+    "javascript.format.enable": true,
     "javascript.validate.enable": true,
-    "typescript.format.enable": false,
+    "typescript.format.enable": true,
     "typescript.validate.enable": true,
   },
 };
