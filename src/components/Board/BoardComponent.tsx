@@ -1,8 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, FC } from "react";
 import "./BoardComponent.css";
 import Board from "../../models/Board";
 
-const BoardComponent = () => {
+interface BoardComponentPropsType {}
+
+const BoardComponent = (): FC<BoardComponentPropsType> => {
   useEffect(() => {
     const board = new Board();
     board.initCells();
